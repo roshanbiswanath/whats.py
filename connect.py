@@ -27,14 +27,14 @@ for i in msg:
         device.shell("input text " + '"'+i+'"')
 """
 
-
+t = int(input("Enter wait time for opening whatsapp: "))
 
 
 
 
 for i in l:
     device.shell(b + "https://wa.me/" + i)
-    time.sleep(2)
+    time.sleep(t)
     #device.shell("input text " + "Hello")
     """
     for i in msg:
